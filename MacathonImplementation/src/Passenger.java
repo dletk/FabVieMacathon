@@ -9,4 +9,8 @@ public class Passenger extends User {
         super(destination, origin, dateAndTime, price, numberOfSeat);
     }
 
+    public void setThePrice() {
+
+    }
+
 }
