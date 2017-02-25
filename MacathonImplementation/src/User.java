@@ -17,4 +17,24 @@ public class User {
         this.price = price;
         this.numberOfSeat = numberOfSeat;
     }
+
+    public String getDestination(){
+        return (this.destination);
+    }
+
+    public String getOrigin(){
+        return (this.origin);
+    }
+
+    public Date getDateAndTime(){
+        return (this.dateAndTime);
+    }
+
+    public double getPrice(){
+        return (this.price);
+    }
+
+    public int getNumberOfSeat(){
+        return (this.numberOfSeat);
+    }
 }
