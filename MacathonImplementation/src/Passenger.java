@@ -8,4 +8,5 @@ public class Passenger extends User {
     public Passenger(String destination, String origin, Date dateAndTime, double price, int numberOfSeat) {
         super(destination, origin, dateAndTime, price, numberOfSeat);
     }
+
 }
